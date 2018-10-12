@@ -18,8 +18,15 @@ module.exports = function(grunt) {
           }
         ]
       }
+    },
+    watch: {
+      files: "assets/sass/**/*.scss",
+      tasks: "sass"
     }
   });
 
   grunt.loadNpmTasks("grunt-sass");
+  grunt.loadNpmTasks("grunt-contrib-watch");
+
+  grunt.registerTask("default", ["sass", "watch"]);
 };
