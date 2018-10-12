@@ -1,0 +1,8 @@
+{
+  "name": "h-plus-sport",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-sass": "^1.0.0"
+  }
+}
